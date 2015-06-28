@@ -1,4 +1,7 @@
 class Solution:
+    def __init__(self):
+        pass
+
     def getRow(self, rowIndex):
         res = [1] * (rowIndex+1)
         for i in range(1, rowIndex):

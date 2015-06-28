@@ -1,4 +1,7 @@
 class Solution:
+    def __init__(self):
+        pass
+
     # @return a string
     def countAndSay(self, n):
         res = "1"
